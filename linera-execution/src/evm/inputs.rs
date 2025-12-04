@@ -134,7 +134,7 @@ pub(crate) const ZERO_ADDRESS: Address = address!("00000000000000000000000000000
 // This is the address being used for service calls.
 pub(crate) const SERVICE_ADDRESS: Address = address!("0000000000000000000000000000000000002000");
 
-/// This is the address used for getting ethers and transfering them to.
+/// This is the address used for getting ethers and transferring them to.
 pub(crate) const FAUCET_ADDRESS: Address = address!("0000000000000000000000000000000000004000");
 pub(crate) const FAUCET_BALANCE: U256 = U256::from_limbs([
     0xffffffffffffffff,
